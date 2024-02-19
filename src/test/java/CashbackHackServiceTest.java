@@ -20,7 +20,7 @@ public class CashbackHackServiceTest {
     @Test
     public void cashbackEqualLimit() {
         int actual = service.remain(1000);
-        int expected = 1000;
+        int expected = 0;
         assertEquals(actual, expected);
 
     }
